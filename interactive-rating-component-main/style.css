@@ -151,15 +151,14 @@ button:hover {
     font-size: 1.1rem;
 }
 
+.num:hover {
+    background-color: var(--Orange);
+    color: white;
+}
+
 .active {
     color: white;
     background: hsla(217, 12%, 63%, 1);
-
-}
-
-.num:hover {
-    background-color: white;
-    color: var(--Orange);
 }
 
 .hidden {
