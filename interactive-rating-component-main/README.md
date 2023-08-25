@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshots/mainActiveNum.png)
+![](./screenshots/mainActiveNum.png?raw=true "Main active screen")
 ![](./screenshots/mainActiveSubmit.png)
 ![](./screenshots/thankYou.png)
 
