@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="chunk">
+    <section class="left">
+      <h2>Your Result</h2>
+      <div class="circle">
+        <div class="bigNum">76</div>
+        <div class="of100">of 100</div>
+      </div>
+      <h3>Great</h3>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="right">
+      <h4>Summary</h4>
+      <div class="listBox">
+        <div class="react Box">
+          <img src="/assets/images/icon-reaction.svg">
+          <span class="reaction">Reaction</span>
+          <span class="stat">80</span>
+          <span class="outOf">/ 100</span>
+        </div>
+        <div class="mem Box">
+          <img src="assets/images/icon-memory.svg" alt="">
+          <span class="memory">Memory</span>
+          <span class="stat">92</span>
+          <span class="outOf">/ 100</span>
+        </div>
+        <div class="verb Box">
+          <img src="assets/images/icon-verbal.svg" alt="">
+          <span class="verbal">Verbal</span>
+          <span class="stat">61</span>
+          <span class="outOf">/ 100</span>
+        </div>
+        <div class="vis Box">
+          <img src="assets/images/icon-visual.svg" alt="">
+          <span class="visual">Visual</span>
+          <span class="stat">72</span>
+          <span class="outOf">/ 100</span>
+        </div>
+      </div>
+      <button class="button">Continue</button>
+    </section>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Andy Harris</a>.
+  </div>
+</body>
+
+</html>

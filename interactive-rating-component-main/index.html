@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <main class="home">
+    <div class="star">
+      <img src="images/icon-star.svg" alt="">
+    </div>
+    <div class="how">
+      <h3>How did we do?</h3>
+    </div>
+    <div class="text">
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </div>
+    <div class="numList">
+      <div class="num one">1</div>
+      <div class="num two">2</div>
+      <div class="num three">3</div>
+      <div class="num four">4</div>
+      <div class="num five">5</div>
+    </div>
+    <button class="submit">SUBMIT</button>
+  </main>
+
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <main class="thankYou hidden">
+    <div class="tape">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+
+    <div class="selected">
+      <div class="outOf">You selected 4 out of 5</div>
+    </div>
+
+    <div class="how thank">
+      <h3>Thank you!</h3>
+    </div>
+    <div class="text">
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+  </main>
+
+  <!-- Thank you state end -->
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Andy Harris</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
