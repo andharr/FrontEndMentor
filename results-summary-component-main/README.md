@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/andharr/FrontEndMentor/tree/main/results-summary-component-main)
 - Live Site URL: [Netlify](https://results-summary-sdfsdfsd.netlify.app/)
 
 ## My process
