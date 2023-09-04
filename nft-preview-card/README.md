@@ -22,7 +22,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
 ![](/screenshots/normal.png)
 ![](/screenshots/active.png)
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/andharr/FrontEndMentor/tree/main/nft-preview-card)
 - Live Site URL: [Netlify](https://nft-previewcard-5ed9eb.netlify.app/)
 
 ## My process
